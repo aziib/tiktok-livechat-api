@@ -4,7 +4,7 @@ from TikTokLive.client.errors import UserOfflineError
 import os
 
 def main():
-    unique_id = input("Please enter the unique_id (e.g., @rismawanda99): ")
+    unique_id = input("Please enter the unique_id (e.g., @megaaziib): ")
     client = TikTokLiveClient(unique_id=unique_id)
 
     @client.on(ConnectEvent)
@@ -25,4 +25,5 @@ def main():
         print(f"An error occurred: {e}")
 
 if __name__ == '__main__':
+
     main()
