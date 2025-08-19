@@ -7,7 +7,7 @@ import asyncio
 from collections import deque
 
 async def main():
-    unique_id = input("Please enter the unique_id (e.g., @rismawanda99): ")
+    unique_id = input("Please enter the unique_id (e.g., @megaaziib): ")
     client = TikTokLiveClient(unique_id=unique_id)
 
     # Queue to store comments
@@ -51,3 +51,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
